@@ -1,4 +1,40 @@
-.container{
-    display: grid;
+/* navbar header */
+nav{
+    border: 2px solid red;
+    margin:auto;
+    padding: auto;
+    display: flex;
+    background-color:black;
+}
+nav header{
+    margin: auto;
+   color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    font-weight:bold ;
+    font-size: 150%;
+}
+/* container -staff place  */
 
+.container{
+    display: flex ;
+    height: 55vh;
+    width: 50%;
+    margin: 15vh auto;
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container h1{
+    display: flexbox;
+    text-decoration: underline; 
+}
+.container form{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    border: 2px solid pink;
 }
