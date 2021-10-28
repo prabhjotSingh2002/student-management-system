@@ -1,3 +1,10 @@
+/* universal selector */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 /* navbar header */
 nav{
     border: 2px solid red;
@@ -5,6 +12,7 @@ nav{
     padding: auto;
     display: flex;
     background-color:black;
+    height: 20vh;
 }
 nav header{
     margin: auto;
